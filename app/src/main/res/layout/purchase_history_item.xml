@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="8dp">
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Iron"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="5 kg"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="₹200.00"
+        android:textSize="14sp"
+        android:gravity="end"
+        android:textStyle="bold" />
+
+</LinearLayout>
